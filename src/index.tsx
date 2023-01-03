@@ -8,7 +8,7 @@ import App from "./App";
 
 import { store } from "./store";
 
-const root = createRoot(document.getElementById("root"));
+const root = createRoot(document.getElementById("root") as HTMLDivElement);
 
 root.render(
   <React.StrictMode>
